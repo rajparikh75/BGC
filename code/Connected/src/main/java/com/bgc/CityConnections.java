@@ -1,7 +1,5 @@
 package com.bgc;
 
-import lombok.Getter;
-
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Map;
@@ -10,7 +8,6 @@ import java.util.Map;
  * Created by rparikh on 6/16/2017.
  */
 public class CityConnections {
-    @Getter
     private Map<String, City> cityMap = new HashMap<>();
 
     public void addCityConnection(String cityName1, String cityName2){
