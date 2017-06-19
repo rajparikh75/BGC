@@ -1,1 +1,3 @@
-"# BGC" 
+- JDK 1.8 is required
+- All source code is in code directory
+- To run see output click showOutput.bat
